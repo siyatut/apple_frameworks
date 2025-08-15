@@ -13,7 +13,7 @@ struct apple_frameworksApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FrameworkGridView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
