@@ -17,6 +17,12 @@ struct Framework: Hashable, Identifiable{
 
 struct MockData {
     
+    static let sampleFramework =  Framework(name: "ARKit",
+                                            imageName: "arkit",
+                                            urlString: "https://developer.apple.com/augmented-reality/arkit",
+                                            description: "ARKit 6 introduces 4K video, so you can capture stunning high-resolution videos of AR experiences — perfect for professional video editing, film production, social media apps, and more. Video and capture capabilities are expanded with support for HDR video and high-resolution background image capture. ARKit 6 also brings Location Anchors to new cities, such as Montreal, Sydney, Singapore, and Tokyo, and it features improvements to Motion Capture.")
+    
+    
     static let frameworks = [
         
         Framework(name: "App Clips",
@@ -25,9 +31,9 @@ struct MockData {
                   description: "An App Clip is a small part of your app that’s discoverable at the moment it’s needed and lets people complete a quick task from your app — even before installing your full app. Whether ordering take-out from a restaurant, renting a scooter, or setting up a new connected appliance for the first time, people can launch the App Clip to easily start and finish the task. And once the task is done, you can offer the opportunity to download your full app from the App Store."),
         
         Framework(name: "ARKit",
-                   imageName: "arkit",
-                   urlString: "https://developer.apple.com/augmented-reality/arkit",
-                   description: "ARKit 6 introduces 4K video, so you can capture stunning high-resolution videos of AR experiences — perfect for professional video editing, film production, social media apps, and more. Video and capture capabilities are expanded with support for HDR video and high-resolution background image capture. ARKit 6 also brings Location Anchors to new cities, such as Montreal, Sydney, Singapore, and Tokyo, and it features improvements to Motion Capture."),
+                  imageName: "arkit",
+                  urlString: "https://developer.apple.com/augmented-reality/arkit",
+                  description: "ARKit 6 introduces 4K video, so you can capture stunning high-resolution videos of AR experiences — perfect for professional video editing, film production, social media apps, and more. Video and capture capabilities are expanded with support for HDR video and high-resolution background image capture. ARKit 6 also brings Location Anchors to new cities, such as Montreal, Sydney, Singapore, and Tokyo, and it features improvements to Motion Capture."),
         
         Framework(name: "Carplay",
                   imageName: "carplay",
