@@ -22,7 +22,3 @@ struct AFButton: View {
             .cornerRadius(10)
     }
 }
-
-#Preview {
-    AFButton(title: "Learn More")
-}
