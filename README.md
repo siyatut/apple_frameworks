@@ -17,5 +17,7 @@ Tap a framework to see its description and open documentation in-app with Safari
 * SwiftUI
 * SafariServices (UIKit bridge)
 * MVVM
+  
+#### 📷 **Screenshots**
 
-![image](https://github.com/user-attachments/assets/4623c92c-4d94-4f16-ad1b-1180ed3f714e)
+![image-2](https://github.com/user-attachments/assets/2a6996e7-c109-4378-a172-20e4e500ce20)
